@@ -21,22 +21,22 @@ public class BasicWidget extends WbdWidgetController {
 
 	@Override
 	public void renderForDesigner(WbdGenerator generator, WbdWidget instance, UimData ud, WbdRenderHelper rh) throws WbdException {
-		rh.append("renderForDesigner called");
+		rh.append("renderForDesigner called!");
 	}
 
 	@Override
 	public void renderForPreview(WbdGenerator generator, WbdWidget instance, UimData ud, WbdRenderHelper rh) throws WbdException {
-		rh.append("renderForPreview called");
+		rh.append("renderForPreview called!");
 	}
 
 	@Override
 	public String getLabel(WbdWidget instance) throws WbdException {
-		return "WBD Basic Widget";
+		return "WBD Basic Widget!";
 	}
 
 	@Override
 	public void renderForJSP(WbdGenerator generator, WbdWidget instance, UimHelper ud, WbdRenderHelper rh) throws Exception {
-		rh.append("renderForJSP called");
+		rh.append("renderForJSP called!");
 	}
 
 	@Override
