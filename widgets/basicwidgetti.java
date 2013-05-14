@@ -44,4 +44,11 @@ public class BasicWidget extends WbdWidgetController {
 		// TODO Add all snippets (JSP/CSS/JSP) and Imports/Classes here
 	}
 
+	kiel	
+	kiel
+	kiel
+	kiel
+	kiel	
+	kiel
+
 }
