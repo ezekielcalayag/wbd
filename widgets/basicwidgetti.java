@@ -21,12 +21,12 @@ public class BasicWidget extends WbdWidgetController {
 
 	@Override
 	public void renderForDesigner(WbdGenerator generator, WbdWidget instance, UimData ud, WbdRenderHelper rh) throws WbdException {
-		rh.append("renderForDesigner called!");
+		rh.append("renderForDesigner!");
 	}
 
 	@Override
 	public void renderForPreview(WbdGenerator generator, WbdWidget instance, UimData ud, WbdRenderHelper rh) throws WbdException {
-		rh.append("renderForPreview called!");
+		rh.append("renderForPreview!");
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class BasicWidget extends WbdWidgetController {
 
 	@Override
 	public void renderForJSP(WbdGenerator generator, WbdWidget instance, UimHelper ud, WbdRenderHelper rh) throws Exception {
-		rh.append("renderForJSP called!");
+		rh.append("renderForJSP!");
 	}
 
 	@Override
