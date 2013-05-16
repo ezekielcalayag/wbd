@@ -43,5 +43,7 @@ public class BasicWidget extends WbdWidgetController {
 	public void getCodeInserters(WbdGenerator generator, WbdWidget instance, UimData ud, CodeInserterList codeInserterList) throws WbdException {
 		// TODO Add all snippets (JSP/CSS/JSP) and Imports/Classes here
 	}
+	
+	System.out.println("BD");
 
 }
